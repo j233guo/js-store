@@ -1,0 +1,286 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "name": "Computers",
+            "img": "https://images.unsplash.com/photo-1493119508027-2b584f234d6c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=3424&q=80"
+        },
+        {
+            "id": 2,
+            "name": "Electronics",
+            "img": "https://images.unsplash.com/photo-1570841512619-7204069cf2e2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1600&q=80"
+        },
+        {  
+            "id": 3,
+            "name": "Home",
+            "img": "https://images.unsplash.com/photo-1522107177-01884fcfa2bb?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1600&q=80"
+        },
+        {
+            "id": 4,
+            "name": "Clothing",
+            "img": "https://images.unsplash.com/photo-1601925240970-98447486fcdb?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=3465&q=80"
+        }
+    ], 
+    "products": [
+        {
+            "id": 1,
+            "img": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2548&q=80",
+            "title": "MacBook Pro 16'",
+            "name": "macbook pro 16",
+            "Price": 2999.00,
+            "category": "Computers",
+            "bestseller": true,
+            "description": "Description for MacBook Pro 16. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et nulla et nisi sodales venenatis. Aliquam posuere aliquam ornare. Nulla facilisi. Phasellus id lobortis libero."
+        },
+        {
+            "id": 2,
+            "img": "https://images.unsplash.com/photo-1533740566848-5f7d3e04e3d7?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2166&q=80",
+            "title": "MacBook Air",
+            "name": "macbook air", 
+            "Price": 1499.00,
+            "category": "Computers",
+            "bestseller": false,
+            "description": "Description for MacBook Air. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et nulla et nisi sodales venenatis. Aliquam posuere aliquam ornare. Nulla facilisi. Phasellus id lobortis libero."
+        },
+        {
+            "id": 3,
+            "img": "https://images.unsplash.com/photo-1515343480029-43cdfe6b6aae?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2600&q=80",
+            "title": "MacBook Pro 13'",
+            "name": "macbook pro 13", 
+            "Price": 1699.00,
+            "category": "Computers",
+            "bestseller": false,
+            "description": "Description for MacBook Pro 13. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et nulla et nisi sodales venenatis. Aliquam posuere aliquam ornare. Nulla facilisi. Phasellus id lobortis libero."
+        },
+        {
+            "id": 4,
+            "img": "https://images.unsplash.com/photo-1584433305355-9cb73387fc61?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2531&q=80",
+            "title": "XPS 15",
+            "name": "xps 15", 
+            "Price": 2888.00,
+            "category": "Computers",
+            "bestseller": false,
+            "description": "Description for XPS 15. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et nulla et nisi sodales venenatis. Aliquam posuere aliquam ornare. Nulla facilisi. Phasellus id lobortis libero."
+        },
+        {
+            "id": 5,
+            "img": "https://images.unsplash.com/photo-1604399326967-8c3ddbb13e19?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2550&q=80",
+            "title": "iPhone 12",
+            "name": "iphone 12",
+            "Price": 1319.00,
+            "category": "Electronics",
+            "bestseller": true,
+            "description": "Description for iPhone 12. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et nulla et nisi sodales venenatis. Aliquam posuere aliquam ornare. Nulla facilisi. Phasellus id lobortis libero."
+        },
+        {
+            "id": 6,
+            "img": "https://images.unsplash.com/photo-1570273282451-b22438331ba3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2550&q=80",
+            "title": "iPhone 11",
+            "name": "iphone 11",
+            "Price": 899.00,
+            "category": "Electronics",
+            "bestseller": false,
+            "description": "Description for iPhone 11. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et nulla et nisi sodales venenatis. Aliquam posuere aliquam ornare. Nulla facilisi. Phasellus id lobortis libero."
+        },
+        {
+            "id": 7,
+            "img": "https://images.unsplash.com/photo-1612036781124-847f8939b154?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2550&q=80",
+            "title": "Switch",
+            "name": "switch",
+            "Price": 399.99,
+            "category": "Electronics",
+            "bestseller": false,
+            "description": "Description for Switch. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et nulla et nisi sodales venenatis. Aliquam posuere aliquam ornare. Nulla facilisi. Phasellus id lobortis libero."
+        },
+        {
+            "id": 8,
+            "img": "https://images.unsplash.com/photo-1587614382346-4ec70e388b28?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=2550&q=80",
+            "title": "Surface Laptop",
+            "name": "surface laptop",
+            "Price": 1299.99,
+            "category": "Computers",
+            "bestseller": false,
+            "description": "Description for Surface Laptop. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et nulla et nisi sodales venenatis. Aliquam posuere aliquam ornare. Nulla facilisi. Phasellus id lobortis libero."
+        },
+        {
+            "id": 9,
+            "img": "https://images.unsplash.com/photo-1542751110-97427bbecf20?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=2940&q=80",
+            "title": "iPad Pro",
+            "name": "ipad pro", 
+            "Price": 949.99,
+            "category": "Computers",
+            "bestseller": true,
+            "description": "Description for iPad Pro. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et nulla et nisi sodales venenatis. Aliquam posuere aliquam ornare. Nulla facilisi. Phasellus id lobortis libero."
+        },
+        {
+            "id": 10,
+            "img": "https://images.unsplash.com/photo-1593642702821-c8da6771f0c6?ixid=MXwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=3578&q=80",
+            "title": "XPS 13",
+            "name": "xps 13", 
+            "Price": 1399.99,
+            "category": "Computers",
+            "bestseller": false,
+            "description": "Description for XPS 13. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et nulla et nisi sodales venenatis. Aliquam posuere aliquam ornare. Nulla facilisi. Phasellus id lobortis libero."
+        },
+        {
+            "id": 11,
+            "img": "https://images.unsplash.com/photo-1581993192008-63e896f4f744?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=3588&q=80",
+            "title": "Galaxy Z Flip",
+            "name": "galaxy z flip",
+            "Price": 1474.99,
+            "category": "Electronics",
+            "bestseller": false,
+            "description": "Description for Galaxy Z Flip. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et nulla et nisi sodales venenatis. Aliquam posuere aliquam ornare. Nulla facilisi. Phasellus id lobortis libero."
+        },
+        {
+            "id": 12,
+            "img": "https://images.unsplash.com/photo-1599779600619-1012639ed04b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2553&q=80",
+            "title": "Apple Magic Mouse",
+            "name": "apple magic mouse",
+            "Price": 129.99,
+            "category": "Electronics",
+            "bestseller": false,
+            "description": "Description for Apple Magic Mouse. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et nulla et nisi sodales venenatis. Aliquam posuere aliquam ornare. Nulla facilisi. Phasellus id lobortis libero."
+        },
+        {
+            "id": 13,
+            "img": "https://images.unsplash.com/photo-1558562805-4bf1e2a724eb?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2550&q=80",
+            "title": "Google Pixel 3A",
+            "name": "google pixel 3a",
+            "Price": 429.99,
+            "category": "Electronics",
+            "bestseller": false,
+            "description": "Description for Google Pixel 3A. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et nulla et nisi sodales venenatis. Aliquam posuere aliquam ornare. Nulla facilisi. Phasellus id lobortis libero."
+        },
+        {
+            "id": 14,
+            "img": "https://images.unsplash.com/photo-1588940086836-36c7d89611a0?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=2550&q=80",
+            "title": "Apple AirPods",
+            "name": "apple airpods",
+            "Price": 229.99,
+            "category": "Electronics",
+            "bestseller": false,
+            "description": "Description for Apple AirPods. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et nulla et nisi sodales venenatis. Aliquam posuere aliquam ornare. Nulla facilisi. Phasellus id lobortis libero."
+        },
+        {
+            "id": 15,
+            "img": "https://images.unsplash.com/photo-1602023039928-7af5a2f000fa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2550&q=80",
+            "title": "Grey Plastic Armchair",
+            "name": "grey plastic armchair", 
+            "Price": 29.00,
+            "category": "Home",
+            "bestseller": false,
+            "description": "Description for Grey Plastic Armchair. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et nulla et nisi sodales venenatis. Aliquam posuere aliquam ornare. Nulla facilisi. Phasellus id lobortis libero."
+        },
+        {
+            "id": 16,
+            "img": "https://images.unsplash.com/photo-1563615563-402f0abc1057?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2548&q=80",
+            "title": "Green Metal Chair",
+            "name": "green metal chair", 
+            "Price": 39.00,
+            "category": "Home",
+            "bestseller": false,
+            "description": "Desciption for Green Metal Chair. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et nulla et nisi sodales venenatis. Aliquam posuere aliquam ornare. Nulla facilisi. Phasellus id lobortis libero."
+        },
+        {
+            "id": 17,
+            "img": "https://images.unsplash.com/photo-1565320690707-1d3d10541559?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2550&q=80",
+            "title": "White and Brown Dining Set",
+            "name": "white and brown dining set",
+            "Price": 439.00,
+            "category": "Home",
+            "bestseller": true,
+            "description": "Description for White and Brown Dining Set. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et nulla et nisi sodales venenatis. Aliquam posuere aliquam ornare. Nulla facilisi. Phasellus id lobortis libero."
+        },
+        {
+            "id": 18,
+            "img": "https://images.unsplash.com/photo-1610735307201-83919c122fe9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2550&q=80",
+            "title": "Wooden Dining Set",
+            "name": "wooden dining set",
+            "Price": 319.00,
+            "category": "Home",
+            "bestseller": false,
+            "description": "Description for Wooden Dining Set. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et nulla et nisi sodales venenatis. Aliquam posuere aliquam ornare. Nulla facilisi. Phasellus id lobortis libero."
+        },
+        {
+            "id": 19,
+            "img": "https://images.unsplash.com/photo-1540574163026-643ea20ade25?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2550&q=80",
+            "title": "Brown Leather 3-seat Sofa",
+            "name": "brown leather 3 seat sofa",
+            "Price": 699.00,
+            "category": "Home",
+            "bestseller": false,
+            "description": "Description for Brown Leather 3-seat Sofa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et nulla et nisi sodales venenatis. Aliquam posuere aliquam ornare. Nulla facilisi. Phasellus id lobortis libero."
+        },
+        {
+            "id": 20,
+            "img": "https://images.unsplash.com/photo-1512212621149-107ffe572d2f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2559&q=80",
+            "title": "Beige 2-seat Sofa",
+            "name": "beige 2 seat sofa",
+            "Price": 539.00,
+            "category": "Home",
+            "bestseller": false,
+            "description": "Description for Beige 2-seat Sofa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et nulla et nisi sodales venenatis. Aliquam posuere aliquam ornare. Nulla facilisi. Phasellus id lobortis libero."
+        },
+        {
+            "id": 21,
+            "img": "https://images.unsplash.com/photo-1512918580421-b2feee3b85a6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2550&q=80",
+            "title": "Cream Classic Bed",
+            "name": "cream classic bed",
+            "Price": 269.00,
+            "category": "Home",
+            "bestseller": false,
+            "description": "Description for Cream Classic Bed. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et nulla et nisi sodales venenatis. Aliquam posuere aliquam ornare. Nulla facilisi. Phasellus id lobortis libero."
+        },
+        {
+            "id": 22,
+            "img": "https://images.unsplash.com/photo-1597949992171-689c5673b936?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2553&q=80",
+            "title": "Nike Air Force 1",
+            "name": "nike air force 1", 
+            "Price": 120.00,
+            "category": "Clothing",
+            "bestseller": false,
+            "description": "Description for Nike Air Force 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et nulla et nisi sodales venenatis. Aliquam posuere aliquam ornare. Nulla facilisi. Phasellus id lobortis libero."
+        },
+        {
+            "id": 23,
+            "img": "https://images.unsplash.com/photo-1554192833-2e031f76e976?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2550&q=80",
+            "title": "Converse High Top",
+            "name": "converse high top",
+            "Price": 70.00,
+            "category": "Clothing",
+            "bestseller": false,
+            "description": "Desription for Converse High Top. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et nulla et nisi sodales venenatis. Aliquam posuere aliquam ornare. Nulla facilisi. Phasellus id lobortis libero."
+        },
+        {
+            "id": 24,
+            "img": "https://images.unsplash.com/photo-1523381294911-8d3cead13475?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2550&q=80",
+            "title": "Green T-Shirt",
+            "name": "green t shirt", 
+            "Price": 12.99,
+            "category": "Clothing",
+            "bestseller": true,
+            "description": "Description for Green T-Shirt. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et nulla et nisi sodales venenatis. Aliquam posuere aliquam ornare. Nulla facilisi. Phasellus id lobortis libero."
+        },
+        {
+            "id": 25,
+            "img": "https://images.unsplash.com/photo-1497339100210-9e87df79c218?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2550&q=80",
+            "title": "Black Suit Jacket",
+            "name": "black suit jacket",
+            "Price": 299.00,
+            "category": "Clothing",
+            "bestseller": false,
+            "description": "Description for Black Suit Jacket. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et nulla et nisi sodales venenatis. Aliquam posuere aliquam ornare. Nulla facilisi. Phasellus id lobortis libero."
+        },
+        {
+            "id": 26,
+            "img": "https://images.unsplash.com/photo-1565084888279-aca607ecce0c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2550&q=80",
+            "title": "Blue Denim Jeans",
+            "name": "blue denim jeans", 
+            "Price": 29.00,
+            "category": "Clothing",
+            "bestseller": false,
+            "description": "Description for Blue Denim Jeans. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et nulla et nisi sodales venenatis. Aliquam posuere aliquam ornare. Nulla facilisi. Phasellus id lobortis libero."
+        }
+    ]
+  }
