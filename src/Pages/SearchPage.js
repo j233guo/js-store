@@ -51,7 +51,7 @@ const SearchPage = (props) => {
     });
 
     useEffect(() => {
-        const url="http://localhost:5000/products"
+        const url="https://js-store-db.herokuapp.com/products"
         fetch(url).then((res) => {
             return res.json();
         }).then((json) => {

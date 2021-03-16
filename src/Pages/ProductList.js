@@ -68,11 +68,11 @@ const ProductList = (props) => {
                 </Col>
             );
         });
-        return <Row key={index}>{productsCols}</Row>
+        return <Row key={index} style={{marginTop:"50px"}}>{productsCols}</Row>
     });
 
     useEffect(() => {
-            const url="http://localhost:5000/products";
+            const url="https://js-store-db.herokuapp.com/products";
             fetch(url).then((res) => {
                 return res.json();
             }).then((json) => {
