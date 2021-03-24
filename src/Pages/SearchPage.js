@@ -4,6 +4,7 @@ import Pagination from 'react-js-pagination'
 import Header from '../Components/Header'
 import Footer from '../Components/Footer'
 import ProductListItems from '../Components/ProductListItems'
+import BackToTop from '../Components/BackToTop'
 
 const SearchPage = (props) => {
 
@@ -93,6 +94,7 @@ const SearchPage = (props) => {
                 />
                 <h3 className={products.length === 0? "" : "hide"}>Sorry, no results found....</h3>
             </Container>
+            <BackToTop/>
         <Footer/>
         </>
     )

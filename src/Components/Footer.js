@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <Navbar bg="dark" variant="dark" sticky="bottom">
             <Container>
-            <Navbar.Brand><h2><FaShoppingBag/> J's Store</h2></Navbar.Brand>
+            <Navbar.Brand className="brand"><h2><FaShoppingBag/> J's Store</h2></Navbar.Brand>
             <Navbar.Text>
                 <h4 className="mt-lg-0 mt-sm-3">Links</h4>
                 <p>

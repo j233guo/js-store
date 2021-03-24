@@ -4,6 +4,7 @@ import PromotionalSection from '../Components/PromotionalSection'
 import Footer from '../Components/Footer'
 import ProductCategory from '../Components/ProductCategory'
 import BestSellers from '../Components/BestSellers'
+import BackToTop from '../Components/BackToTop'
 
 const Home = () => {
 
@@ -14,6 +15,7 @@ const Home = () => {
             <PromotionalSection/>
             <ProductCategory/>
             <BestSellers/>
+            <BackToTop/>
             <Footer/>
         </>
     )

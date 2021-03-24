@@ -5,6 +5,7 @@ import Pagination from 'react-js-pagination'
 import Header from '../Components/Header'
 import Footer from '../Components/Footer'
 import ProductListItems from '../Components/ProductListItems'
+import BackToTop from '../Components/BackToTop'
 
 const ProductList = (props) => {
 
@@ -112,6 +113,7 @@ const ProductList = (props) => {
                     prevPageText="<"
                 />
             </Container>
+            <BackToTop/>
         <Footer/>
         </>
     )

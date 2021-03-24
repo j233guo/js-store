@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 .hide
 {
     display:none;
@@ -32,3 +35,18 @@ ul.pagination li.active a {
     color: black;
     font-weight: bold;
 }
+
+button {
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    font-size: xx-large;
+}
+
+.brand{
+    font-family: 'Ranchers', cursive;
+}
+

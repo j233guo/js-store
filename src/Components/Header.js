@@ -9,7 +9,7 @@ const Header = () => {
 
     return (
         <Navbar bg="dark" expand="lg" variant="dark">
-            <Navbar.Brand href="/"><FaShoppingBag/> J's Store</Navbar.Brand>
+            <Navbar.Brand href="/" className="brand"><FaShoppingBag/> J's Store</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
             <Navbar.Collapse id="resposnive-navbar-nav">
                 <Nav className="ml-auto" >
