@@ -8,6 +8,7 @@ import ContactUs from '../Pages/ContactUs';
 import ProductList from '../Pages/ProductList';
 import ProductPage from '../Pages/ProductPage';
 import SearchPage from '../Pages/SearchPage';
+import User from "../Pages/User";
 
 function App() {
     return (
@@ -31,6 +32,9 @@ function App() {
                 <Route path="/product-list/:p" component={ProductList}/>
                 <Route path="/product/:p" component={ProductPage}/>
                 <Route path="/search/:category/:name" component={SearchPage}/>
+                <Route path="/user">
+                    <User/>
+                </Route>
             </Switch>
         </Router>        
     );

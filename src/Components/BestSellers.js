@@ -6,14 +6,11 @@ const BestSellers = () => {
     const [products, setProducts] = useState([]);
 
     useEffect(() => {
-        const url="https://js-store-db.herokuapp.com/products";
+        const url="http://localhost:5000/products/bestsellers";
         fetch(url).then((res) => {
             return res.json();
         }).then((json) => {
-            let best = json.filter((product) => {
-                return product.bestseller === true
-            })
-            setProducts(best)
+            setProducts(json.body)
         }).catch((err)=>{
             console.log("Encountered error: " + err);
         });

@@ -26,43 +26,6 @@ const ProductList = (props) => {
         return cache
     }
 
-    const filterProduct = (productList) => {
-        if (props.match.params.p === "bestseller") {
-            let best = productList.filter((product) => {
-                return product.bestseller === true
-            });
-            setTitle("Best Sellers")
-            setRows(chunk(best, 3))
-        } else if (props.match.params.p === "Home") {
-            let home = productList.filter((product) => {
-                return product.category === "Home"
-            });
-            setTitle("Home")
-            setRows(chunk(home, 3))
-        } else if (props.match.params.p === "Computers") {
-            let computers = productList.filter((product) => {
-                return product.category === "Computers"
-            });
-            setTitle("Computers")
-            setRows(chunk(computers, 3))
-        } else if (props.match.params.p === "Electronics") {
-            let electronics = productList.filter((product) => {
-                return product.category === "Electronics"
-            });
-            setTitle("Electronics")
-            setRows(chunk(electronics,3))
-        } else if (props.match.params.p === "Clothing") {
-            let clothing = productList.filter((product) => {
-                return product.category === "Clothing"
-            });
-            setTitle("Clothings")
-            setRows(chunk(clothing, 3))
-        } else if (props.match.params.p === "all") {
-            setTitle("All Products")
-            setRows(chunk(productList, 3))
-        }
-    }
-
     // Pagination
     const rowsPerPage = 4;
     const indexOfLastRow  = activePage * rowsPerPage;
@@ -73,7 +36,7 @@ const ProductList = (props) => {
         const productsCols = row.map((product) => {
             return (
                 <Col xs="4" key={product.id}>
-                    <ProductListItems key={product.id} id={product.id} title={product.title} price={product.Price} img={product.img}/>	  
+                    <ProductListItems key={product.id} id={product.id} title={product.title} price={product.price} img={product.img}/>	  
                 </Col>
             );
         });
@@ -85,11 +48,20 @@ const ProductList = (props) => {
     };
 
     useEffect(() => {
-            const url="https://js-store-db.herokuapp.com/products";
+            let url;
+            if (props.match.params.p === "bestseller") {
+                url = "http://localhost:5000/products/bestsellers";
+            } else if (props.match.params.p === "all") {
+                url = "http://localhost:5000/products";
+            } else {
+                url = "http://localhost:5000/products/category?c=" + props.match.params.p;
+            }
+
             fetch(url).then((res) => {
                 return res.json();
             }).then((json) => {
-                filterProduct(json);
+                setRows(chunk(json.body, 3));
+                setTitle(json.message);
             }).catch((err) => {
                 console.log("Encountered error: " + err)
             })
