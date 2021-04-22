@@ -6,7 +6,7 @@ const BestSellers = () => {
     const [products, setProducts] = useState([]);
 
     useEffect(() => {
-        const url="http://localhost:5000/products/bestsellers";
+        const url="https://js-store-api.herokuapp.com/products/bestsellers";
         fetch(url).then((res) => {
             return res.json();
         }).then((json) => {

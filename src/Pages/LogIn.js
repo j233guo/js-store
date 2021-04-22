@@ -2,7 +2,6 @@ import React from 'react'
 import {useState} from 'react'
 import {Card, Form, Button} from 'react-bootstrap'
 import { FaExclamationCircle, FaShoppingBag } from 'react-icons/fa'
-import { Redirect } from 'react-router'
 
 const LogIn = () => {
 
@@ -34,7 +33,7 @@ const LogIn = () => {
     const submitForm = (e) => {
         e.preventDefault();
         if (validateForm()) {
-            fetch("http://localhost:5000/auth", {
+            fetch("https://js-store-api.herokuapp.com/auth", {
                 method: "POST",
                 headers: {
                     'Content-Type': 'application/json'

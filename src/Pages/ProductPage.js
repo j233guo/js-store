@@ -10,7 +10,7 @@ const ProductPage = (props) => {
     const [display, setDisplay] = useState(true);
 
     useEffect(() => {
-        const url=`http://localhost:5000/products/${props.match.params.p}`;
+        const url=`https://js-store-api.herokuapp.com/products/${props.match.params.p}`;
         fetch(url).then((res) => {
             return res.json();
         }).then((json) => {

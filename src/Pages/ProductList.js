@@ -50,11 +50,11 @@ const ProductList = (props) => {
     useEffect(() => {
             let url;
             if (props.match.params.p === "bestseller") {
-                url = "http://localhost:5000/products/bestsellers";
+                url = "https://js-store-api.herokuapp.com/products/bestsellers";
             } else if (props.match.params.p === "all") {
-                url = "http://localhost:5000/products";
+                url = "https://js-store-api.herokuapp.com/products";
             } else {
-                url = "http://localhost:5000/products/category?c=" + props.match.params.p;
+                url = "https://js-store-api.herokuapp.com/products/category?c=" + props.match.params.p;
             }
 
             fetch(url).then((res) => {

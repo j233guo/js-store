@@ -65,7 +65,7 @@ const Registration = () => {
     const submitForm = (e) => {
         e.preventDefault();
         if (validateForm()) {
-            fetch("http://localhost:5000/users", {
+            fetch("https://js-store-api.herokuapp.com/users", {
                 method: "POST",
                 headers: {
                     'Content-Type': 'application/json'
